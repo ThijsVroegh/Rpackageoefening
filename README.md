@@ -1,5 +1,5 @@
 
-# Hgear
+# Building a package from scratch!
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -20,6 +20,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(Hgear)
-## basic example code
+example_names <- c("Luke", "Vader", "Leia", "Chewbacca", "Solo", "R2D2")
+make_groups(example_names)
 ```
 
