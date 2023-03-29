@@ -20,7 +20,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(Hgear)
-example_names <- c("Luke", "Vader", "Leia", "Chewbacca", "Solo", "R2D2")
+# data is in the data folder, this time covering some of tje main characters of star wars
 make_groups(example_names)
 ```
 
