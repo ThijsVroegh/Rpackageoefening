@@ -4,14 +4,14 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of Hgear is to practice building an r package
+The goal of this is to practice building an r package
 
 ## Installation
 
-You can install the development version of Hgear like so:
+You can install the development version of this package like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+devtools::install_github("ThijsVroegh/RPackageoefening")
 ```
 
 ## Example
