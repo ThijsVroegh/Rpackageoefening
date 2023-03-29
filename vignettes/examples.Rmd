@@ -1,0 +1,43 @@
+---
+title: "testing with package course"
+author: "make groups"
+date: "2023-03-29"
+output: html_document
+---
+
+## Introduction
+
+Working from home can be lonely. Do you miss the random chats at the coffee machine? Certainly we do!
+
+Luckily, our R package `mysterycoffee` is here to help.
+
+## How to use it
+
+Well, first you'll have to attach the package.
+
+```{r install}
+library(Hgear)
+```
+
+Afterwards, the package will need the names of your colleagues. These are mine:
+
+```{r names}
+names <- c("Pablo Rodríguez", 
+           "Lieke de Boer", 
+           "Barbara Vreede", 
+           "President Obama", 
+           "General Sun Tzu", 
+           "Pharaoh Hatshepsut")
+```
+
+Now we just have to use the function `make_groups` to assign the random coffee partners:
+
+```{r assign}
+groups <- make_groups(names)
+```
+
+And here you have the result!
+
+```{r print, echo=FALSE}
+print(groups)
+```
